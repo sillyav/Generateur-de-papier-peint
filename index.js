@@ -55,7 +55,7 @@ function Brice() {
   document.querySelector(".dessin") .src = front[indiceFront];
 }
 
-document.querySelector("#generate-button").addEventListener("click", Brice);
+document.querySelector(".generate-button").addEventListener("click", Brice);
 
 
 
