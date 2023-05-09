@@ -104,3 +104,21 @@
   color: #ffffff;
 }
 
+.header p {
+  display: inline-block;
+  margin: 0;
+  position: absolute;
+width: 620px;
+height: 61px;
+left: 65px;
+top: 19px;
+
+}
+
+.logo-container img {
+  margin-right: 20px;
+}
+
+
+
+
