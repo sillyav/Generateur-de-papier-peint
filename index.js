@@ -1,15 +1,4 @@
 
-// Obtenir les éléments d'image
-// const backgroundImage = document.getElementById('background-image');
-// const motifImage = document.getElementById('motif-image');
-// const motifImage2 = document.getElementById('motif-image2');
-// const motifImage3 = document.getElementById('motif-image3');
-// const motifImage4 = document.getElementById('motif-image4');
-// const motifImage5 = document.getElementById('motif-image5');
-// const motifImage6 = document.getElementById('motif-image6');
-// const motifImage7 = document.getElementById('motif-image7');
-// const motifImage8 = document.getElementById('motif-image8');
-// const motifImage9 = document.getElementById('motif-image9');
 
 // Obtenir le bouton de génération
 const generateButton = document.getElementById('generate-button');
