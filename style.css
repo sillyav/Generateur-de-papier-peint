@@ -1,0 +1,45 @@
+.background {
+   position: relative;
+   width: 1235px;
+   height: 570px;
+   border: 2px solid #000000;
+ }
+ 
+ .background img {
+   position: absolute;
+   width: 1235px;
+   height: 570px;
+   object-fit: cover;
+   
+ }
+
+ .motif {
+   position: absolute;
+   width: 1235px;
+   height: 570px;
+   border: 2px solid #000000;
+ }
+ 
+ .motif img {
+   position: absolute;
+   width: 1235px;
+   height: 570px;
+   object-fit: cover;
+   
+ }
+
+
+
+ .background{
+   z-index: 3;
+ }
+
+
+ .motifx{
+   z-index: 1;
+ }
+
+ .dessin{
+   z-index: 2;
+ }
+
