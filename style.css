@@ -1,3 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  
+  font-family: "Montserrat", sans-serif;
+}
+
+.navMenu {
+ /* position: absolute;*/
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.navMenu a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 80px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:hover {
+  color: #729364;
+}
+
+.navMenu .dot {
+  width: 6px;
+  height: 6px;
+  background: #729364;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:nth-child(1):hover ~ .dot {
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(2):hover ~ .dot {
+  -webkit-transform: translateX(110px);
+  transform: translateX(110px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(3):hover ~ .dot {
+  -webkit-transform: translateX(200px);
+  transform: translateX(200px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(4):hover ~ .dot {
+  -webkit-transform: translateX(285px);
+  transform: translateX(285px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
 .background {
    position: relative;
    width: 1235px;
@@ -107,20 +197,7 @@
   color: #ffffff;
 }
 
-.header p {
-  display: inline-block;
-  margin: 5px;
- width: 220px;
- height: 40px;
- left: 65px;
- top: 19px;
- font-size: 18px;
- font-family: 'Lora' ;
- font-weight: 600;
- color: #000000;
- text-align: center;
 
-}
 
 .logo-container img {
   margin-right: 20px;
@@ -141,8 +218,12 @@
     display: grid;
     grid-template-rows: auto 1fr auto;
     margin-top: 100px;
-    font-family: 'Lora' ;
+    font-family: "Montserrat", sans-serif;
  font-weight: 600;
+}
+ 
+.logo_f{
+  margin-bottom: 20px;
 }
 
 footer {
