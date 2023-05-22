@@ -13,21 +13,21 @@ body {
 }
 
 .navMenu {
- /* position: absolute;*/
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  
+  width: 100%;
+  margin-bottom: 5vh;
+  padding-top: 5vh;
+  margin-left: 50px;
+
 }
 
 .navMenu a {
   color: #000000;
   text-decoration: none;
-  font-size: 1.2em;
-  text-transform: uppercase;
+  font-size: 14px;
   font-weight: 500;
   display: inline-block;
-  width: 80px;
+  width: 90px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
@@ -82,8 +82,16 @@ body {
 
 
 
+.header{
+display: flex;
+margin-left: 18vh;
+margin-bottom: 80px;
+}
 
-
+.logo{
+  margin-right: 20px;
+  
+}
 
 
 
@@ -132,7 +140,12 @@ body {
    
  }
 
-
+ .container-b{
+  width: 100%;
+  display: flex; /* utiliser un affichage en ligne flexible pour aligner les boutons horizontalement */
+ justify-content: center; /* centrer les boutons horizontalement */  
+ margin-top: 50px;
+ }
 
  
  .background{
@@ -149,14 +162,11 @@ body {
  }
 
  .buttons-container {
-  position: absolute;
-  bottom: 0px;
-  left: 50%;
-  width: 100%;
-  transform: translateX(-50%);
-  display: flex; /* utiliser un affichage en ligne flexible pour aligner les boutons horizontalement */
-  justify-content: center; /* centrer les boutons horizontalement */  
-  
+  width:800px;
+
+   display: flex; /* utiliser un affichage en ligne flexible pour aligner les boutons horizontalement */
+  justify-content: flex-end; /* centrer les boutons horizontalement */  
+ 
   
 }
 
@@ -220,17 +230,15 @@ body {
     margin-top: 100px;
     font-family: "Montserrat", sans-serif;
  font-weight: 600;
-}
+ margin-left: 18vh;
+ }
  
-.logo_f{
-  margin-bottom: 20px;
-}
+
 
 footer {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     padding: 5px;
-    background-color: #000000;
-    color: #fff;
-    margin-top: 20px;
+    color: #000000;
+    margin-top: 100px;
 }
